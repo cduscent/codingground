@@ -1,0 +1,17 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        System.out.println("Hello World");
+        
+        int number = Integer.parseInt(args[0]);
+        boolean isprimenumber;
+        
+        
+        //is divible by on but not two
+        isprimenumber = (number % 1 == 0) && (number % 2 !=0);
+        
+        
+        System.out.println(isprimenumber);
+    
+     }
+}
