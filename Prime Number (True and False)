@@ -7,24 +7,11 @@ public class HelloWorld{
         
         boolean isprimenumber;
         
-            if ( number % 1 == 0) && (number % 2 !=0); {
-                if ( number % 1 == number) && (number % 2 !=0);
+                if ( ( number % 1 == 0) && (number % 2 !=0) ); {
+                if ( ( number % 1 == number) && (number % 2 !=0) );
 	            System.out.print("false");
-            }
-            else {
+                else {
 	            System.out.print("true");
-        }
-
+        } }
      }
 }
-
-HelloWorld.java:10: error: illegal start of expression                                                                                                                                                        
-            if ( number % 1 == 0) && (number % 2 !=0); {                                                                                                                                                      
-                                  ^                                                                                                                                                                           
-HelloWorld.java:11: error: illegal start of expression                                                                                                                                                        
-                if ( number % 1 == number) && (number % 2 !=0);                                                                                                                                               
-                                           ^                                                                                                                                                                  
-HelloWorld.java:14: error: 'else' without 'if'                                                                                                                                                                
-            else {                                                                                                                                                                                            
-            ^                                                                                                                                                                                                 
-3 errors    
