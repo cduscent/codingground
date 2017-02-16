@@ -3,15 +3,28 @@ public class HelloWorld{
      public static void main(String []args){
         System.out.println("Hello World");
         
-        int number = Integer.parseInt(args[0]);
+        double number = Double.parseDouble(args[0]);
+        
         boolean isprimenumber;
         
-        
-        //is divible by on but not two
-        isprimenumber = (number % 1 == 0) && (number % 2 !=0);
-        
-        
-        System.out.println(isprimenumber);
-    
+            if ( number % 1 == 0) && (number % 2 !=0); {
+                if ( number % 1 == number) && (number % 2 !=0);
+	            System.out.print("false");
+            }
+            else {
+	            System.out.print("true");
+        }
+
      }
 }
+
+HelloWorld.java:10: error: illegal start of expression                                                                                                                                                        
+            if ( number % 1 == 0) && (number % 2 !=0); {                                                                                                                                                      
+                                  ^                                                                                                                                                                           
+HelloWorld.java:11: error: illegal start of expression                                                                                                                                                        
+                if ( number % 1 == number) && (number % 2 !=0);                                                                                                                                               
+                                           ^                                                                                                                                                                  
+HelloWorld.java:14: error: 'else' without 'if'                                                                                                                                                                
+            else {                                                                                                                                                                                            
+            ^                                                                                                                                                                                                 
+3 errors    
